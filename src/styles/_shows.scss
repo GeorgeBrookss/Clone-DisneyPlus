@@ -11,10 +11,19 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 24px;
 
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+        }
         &--is-active{
             display: grid;
 
         }
+
+
+
+
+
         &__item{
             img{
                 max-width: 100%;
@@ -26,6 +35,12 @@
     &__tabs{
             display: flex;
             justify-content: center;   
+
+            @media(max-width: 768px){
+                white-space: nowrap;
+                overflow-x: scroll;
+                padding-left: 145px;
+            }
         &__button{
             color: Variaveis.$corTextoSecondary;
             font-size: 20px;
@@ -37,9 +52,13 @@
             font-family: Avenir, serif;
             border-bottom: 5px solid transparent;
 
+            @media(max-width: 768px){
+                margin-right: 20px;
+            }
             
             &--is-active{
                 border-color: Variaveis.$corTextoSecondary;
+                
 
             }
             &:hover{
