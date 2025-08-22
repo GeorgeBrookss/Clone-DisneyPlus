@@ -57,4 +57,4 @@ Isso iniciará um servidor de desenvolvimento local e abrirá a página no seu n
 ## Link do Projeto
 Você pode visualizar a versão online do projeto no seguinte link:
 
-https://lnkd.in/dQP7E5_6](https://clone-disney-plus-olive-two.vercel.app/
+https://clone-disney-plus-olive-two.vercel.app/
